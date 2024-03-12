@@ -1,0 +1,43 @@
+@media (max-width: 24em) {
+  .grid-3 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .container {
+    margin: 6rem 3rem;
+  }
+
+  .card-name {
+    font-size: 2.7rem;
+  }
+  .card-text {
+    line-height: 2;
+    font-size: 1.1rem;
+  }
+
+  .btn:link,
+  .btn:visited {
+    background-color: white;
+    width: 50%;
+
+    padding: 1rem 2rem;
+    font-size: 1rem;
+  }
+
+  .btn-sedan:hover,
+  .btn-sedan:active {
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+  }
+
+  .btn-suv:hover,
+  .btn-suv:active {
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+  }
+
+  .btn-lux:hover,
+  .btn-lux:active {
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+  }
+}
